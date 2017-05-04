@@ -23,35 +23,35 @@ var mostrarval = document.getElementById("val");
 var mostrarmarion = document.getElementById("marion");
 var mostrarantonia = document.getElementById("antonia");
 
-var infofran = "Nombre : " + fran.nombre + " " + fran.apellido + "<br>" 
+var infofran = "<span style='font-size:20px'" + "Nombre : "  + "</style>" + fran.nombre + " " + fran.apellido + "<br>" 
 + "Edad : " + fran.edad + "<br>" + "Hobbies : " + "<ul><li>"+fran.hobbies+"</li></ul>" + "<br>";
 mostrarfran.innerHTML = infofran;
 
-var infocote = "Nombre : " + cote.nombre + " " + cote.apellido + "<br>" 
+var infocote = "<span style='font-size:20px'" + "Nombre : "  + "</style>" + cote.nombre + " " + cote.apellido + "<br>" 
 + "Edad : " + cote.edad + "<br>" + "Hobbies : " + "<ul><li>"+cote.hobbies+"</li></ul>" + "<br>";
 mostrarcote.innerHTML = infocote;
-
-var infomariajose = "Nombre : " + mariajose.nombre + " " + mariajose.apellido + "<br>" 
+ 
+var infomariajose = "<span style='font-size:20px'"  + "Nombre : "  + "</style>" + mariajose.nombre + " " + mariajose.apellido + "<br>" 
 + "Edad : " + mariajose.edad + "<br>" + "Hobbies : " + "<ul><li>"+mariajose.hobbies+"</li></ul>" + "<br>";
 mostrarmariajose.innerHTML = infomariajose;
 
-var infocata = "Nombre : " + cata.nombre + " " + cata.apellido + "<br>" 
+var infocata = "<span style='font-size:20px'" + "Nombre : "  + "</style>" + cata.nombre + " " + cata.apellido + "<br>" 
 + "Edad : " + cata.edad + "<br>" + "Hobbies : " + "<ul><li>"+cata.hobbies+"</li></ul>" + "<br>";
 mostrarcata.innerHTML = infocata;
 
-var infocamila = "Nombre : " + camila.nombre + " " + camila.apellido + "<br>" 
+var infocamila = "<span style='font-size:20px'" + "Nombre : "  + "</style>" + camila.nombre + " " + camila.apellido + "<br>" 
 + "Edad : " + camila.edad + "<br>" + "Hobbies : " + "<ul><li>"+camila.hobbies+"</li></ul>" + "<br>";
 mostrarcamila.innerHTML = infocamila;
 
-var infoval = "Nombre : " + val.nombre + " " + val.apellido + "<br>" 
+var infoval = "<span style='font-size:20px'" + "Nombre : "  + "</style>" + val.nombre + " " + val.apellido + "<br>" 
 + "Edad : " + val.edad + "<br>" + "Hobbies : " + "<ul><li>"+val.hobbies+"</li></ul>" + "<br>";
 mostrarval.innerHTML = infoval;
 
-var infomarion = "Nombre : " + marion.nombre + " " + marion.apellido + "<br>" 
+var infomarion = "<span style='font-size:20px'" + "Nombre : "  + "</style>" + marion.nombre + " " + marion.apellido + "<br>" 
 + "Edad : " + marion.edad + "<br>" + "Hobbies : " + "<ul><li>"+marion.hobbies+"</li></ul>" + "<br>";
 mostrarmarion.innerHTML = infomarion;
 
-var infoantonia = "Nombre : " + antonia.nombre + " " + antonia.apellido + "<br>" 
+var infoantonia = "<span style='font-size:20px'" + "Nombre : "  + "</style>"  + antonia.nombre + " " + antonia.apellido + "<br>" 
 + "Edad : " + antonia.edad + "<br>" + "Hobbies : " + "<ul><li>"+antonia.hobbies+"</li></ul>" + "<br>";
 mostrarantonia.innerHTML = infoantonia;
 
